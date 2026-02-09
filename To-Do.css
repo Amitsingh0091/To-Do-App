@@ -1,0 +1,87 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{
+  background:#0E0D0D;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.app{
+  background:#1C1A1A;
+  width:360px;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+.input-box{
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+}
+.input-box input{
+  flex:1;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+.input-box button{
+  padding:10px 14px;
+  border:none;
+  background:#4CAF50;
+  color:#fff;
+  border-radius:6px;
+  cursor:pointer;
+}
+.filters{
+  display:flex;
+  gap:6px;
+  margin-bottom:12px;
+}
+.filters button{
+  flex:1;
+  padding:8px 0;
+  border:none;
+  background:#ddd;
+  border-radius:6px;
+  cursor:pointer;
+}
+button:hover{
+  background: #B5B0B0;
+ 
+}
+ul{
+  list-style:none;
+}
+li{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#f0f0f0;
+  padding:10px;
+  margin-bottom:8px;
+  border-radius:6px;
+}
+li.done{
+  text-decoration:line-through;
+  color:gray;
+}
+.todo-text{
+  flex:1;
+}
+.actions{
+  display:flex;
+  gap:6px;
+}
+.actions button{
+  border:none;
+  padding:6px 8px;
+  border-radius:4px;
+  cursor:pointer;
+}
+.actions button:nth-child(1){background:#4CAF50;color:#fff}
+.actions button:nth-child(2){background:#2196F3;color:#fff}
+.actions button:nth-child(3){background:#f44336;color:#fff}
